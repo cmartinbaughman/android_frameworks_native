@@ -116,6 +116,7 @@ typedef struct II420ColorConverter {
     void (*openColorConverterLib)();
     void (*closeColorConverterLib)();
 #endif
+
 } II420ColorConverter;
 
 /* The only function that the shared library needs to expose: It fills the
