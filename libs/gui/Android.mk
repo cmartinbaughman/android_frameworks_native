@@ -55,6 +55,7 @@ ifneq ($(filter generic%,$(TARGET_DEVICE)),)
 endif
 
 ifeq ($(call is-vendor-board-platform,QCOM),true)
+ifneq ($(TARGET_QCOM_DISPLAY_VARIANT),legacy)
 	LOCAL_CFLAGS += -DUSE_NATIVE_FENCE_SYNC
 endif
 endif
