@@ -55,12 +55,6 @@
 #include "legacy/LegacyRotationVectorSensor.h"
 #endif
 
-#ifdef USE_LEGACY_SENSORS_FUSION
-#include "legacy/LegacyGravitySensor.h"
-#include "legacy/LegacyLinearAccelerationSensor.h"
-#include "legacy/LegacyRotationVectorSensor.h"
-#endif
-
 namespace android {
 // ---------------------------------------------------------------------------
 
